@@ -12,3 +12,4 @@ yarn-error.log
 .idea/*
 .phpunit.result.cache
 .php_cs.cache
+composer.phar
