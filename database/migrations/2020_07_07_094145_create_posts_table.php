@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
             $table->string('body', 140);
             $table->timestamps();
 
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            //$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             // onDelete('cascade');
             // If a User is deleted, all Tweets will be deleted
         });
